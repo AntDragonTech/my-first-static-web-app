@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@500&family=Josefin+Sans:wght@100;400&family=Poppins&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>My Portfolio | Interests</title>
+    <link rel="icon" href="pics/UnknwounCrown(transparent1).png">
+</head>
+<header class="w3-container">
+    <nav>
+        <div class="myNavBar w3-bar w3-border w3-card-4">
+            <ul>
+                <li>
+                    <a href="index1.html" class="w3-bar-item w3-button w3-mobile w3-red">Home</a>
+                </li>
+                <li>
+                    <a href="resume.html" class="w3-bar-item w3-button w3-mobile">Resum&eacute;</a>
+                </li>
+                <li>
+                    <a href="interests.html" class="w3-bar-item w3-button w3-mobile">Interests</a>
+                </li>
+                <li>
+                    <a href="donate.html" class="w3-bar-item w3-button w3-mobile w3-amber w3-right">Donate</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="w3-container w3-center jotxt">
+        <h1>Wycliffe Anthony Jackson Jr</h1>
+        <p>Systems Administrator</p>
+    </div>
+    <div class="w3-container w3-center big-head">
+        <img src="pics/Wycliffe_Jackson.jpg" class="w3-circle" alt="Photo of Wycliffe">
+        <div class="w3-container w3-center">
+            <p><i class="fa fa-server fa-5x" aria-hidden="true"></i></p>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="w3-container w3-light-grey">
+        <div class="w3-center">
+            <h2>Care to Donate?</h2>
+            <p>You don't have to, but if you do, It its greatly appreciated.</p>
+        </div>
+        <form class="w3-contnent form-content" action="/action_page.php">
+            <div class="w3-container w3-padding">
+                <h2>Donation Form</h2>
+                <p>Please fill in this form to donate.</p>
+                <hr>
+                <label for="Fname"><b>First Name</b></label>
+                <input type="Fname" placeholder="First Name" name="Fname" required>
+
+                <label for="Lname"><b>Last Name</b></label>
+                <input type="Lname" placeholder="Last Name" name="Lname" required>
+
+                <label for="email"><b>Email</b></label>
+                <input type="emailaddress" placeholder="Email Address" name="email" required>
+
+                <label for="date"><b>Date</b></label>
+                <input type="date" placeholder="Date" name="date" required>
+
+                <label for="phonetype"><b>Phone Type</b></label>
+                <select type="phonetype" name="carrier">
+                    <option value="AT&t">AT&t</option>
+                    <option value="T-Mobile">T-Mobile</option>
+                    <option value="Verizon">Verizon</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label for="phonenumber"><b>Phone Number</b></label>
+                <input type="tel" placeholder="123-456-78910" name="phonenumber" required>
+
+                <label for="ccnumber"><b>Card Number</b></label>
+                <input type="tel" placeholder="xxxx-xxxx-xxxx-xxxx" inputmode="numeric" maxlength="16" pattern="[0-9]"
+                    name="ccnumber" required>
+
+                <label for="ccv"><b>Security Code</b></label>
+                <input type="tel" placeholder="xxx" inputmode="numeric" maxlength="3" name="ccv" required>
+
+                <label>
+                    <input class="w3-margin-bottom" type="checkbox" name="terms" required> Agree to Terms
+                </label>
+
+
+
+                <div class="clear">
+                    <button type="submit" class="w3-btn w3-amber">Donate</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</main>
+<footer>
+    <div class="footer w3-container w3-center">
+        <div class="w3-row">
+            <div class="w3-gray">
+                <h5>Social Media</h5>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="myjs.js"></script>
+</body>
+
+</html>

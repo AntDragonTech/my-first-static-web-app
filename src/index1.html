@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hind+Siliguri:wght@500&family=Josefin+Sans:wght@100;400&family=Poppins&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>My Portfolio | Home</title>
+    <link rel="icon" href="pics/UnknwounCrown(transparent1).png">
+</head>
+<header>
+    <nav>
+        <div class="myNavBar w3-bar w3-border w3-card-4 w3-mobile">
+            <ul>
+                <li>
+                    <a href="index1.html" class="w3-bar-item w3-button w3-mobile w3-red">Home</a>
+                </li>
+                <li>
+                    <a href="resume.html" class="w3-bar-item w3-button w3-mobile">Resum&eacute;</a>
+                </li>
+                <li>
+                    <a href="interests.html" class="w3-bar-item w3-button w3-mobile">Interests</a>
+                </li>
+                <li>
+                    <a href="donate.html" class="w3-bar-item w3-button w3-mobile w3-amber w3-right">Donate</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="w3-container w3-center jotxt">
+        <h1>Wycliffe Anthony Jackson Jr</h1>
+        <p>Systems Administrator</p>
+    </div>
+    <div class="w3-container w3-center big-head">
+        <img src="pics/Wycliffe_Jackson.jpg" class="w3-circle" alt="Photo of Wycliffe">
+        <div class="w3-container w3-center">
+            <p><i class="fa fa-server fa-5x" aria-hidden="true"></i></p>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="section-parent">
+        <div class="section1">
+            <div class="w3-container container-g">
+                <div class="whoAmI">
+                    <div class="w3-card-4">
+                        <div class="w3-container w3-red">
+                            <h2>Who Am I?</h2>
+                        </div>
+                        <div class="w3-container">
+                            <p>
+                                I was born and raised in Jamaica. I migrated to the United States
+                                in 2012. I have always had a love for technology, but never
+                                thought of it as a career path. Fast foward to present day and my
+                                love for technology is the same, only now; I am Systems
+                                Administrator. Yes, I am the mysterious person who makes
+                                everything work! lol.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-container">
+                <div class="w3-card-4 container-g whoAmI">
+                    <div class="w3-container w3-red">
+                        <h2>What are my Goals?</h2>
+                    </div>
+                    <div class="w3-container">
+                        <p>
+                            The ultimate goal is to become a Cloud Infrastructure Architect,
+                            such big words. I love working on the Infrastructure side of IT,
+                            especially what I'm doing now as a Systems Administrator.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-container">
+                <div class="w3-card-4 container-g whoAmI">
+                    <div class="w3-container w3-red">
+                        <button class="w3-btn w3-hover-amber w3-mobile pjbtn" onclick="myMenu('projects')">
+                            Projects
+                        </button>
+                    </div>
+                    <div id="projects" class="panels" style="display: none">
+
+
+                        <button onclick="myProj('proj')" class="w3-btn w3-block w3-blue">
+                            JAMF/Apple School
+                        </button>
+
+                        <div id="proj" class="w3-container w3-center w3-hide">
+                            <p>
+                                Currently taking on a huge initive to supply the incoming freshmen
+                                body of students (Fall 23) with iPads. This is a very time consuming
+                                project as the go live date is fast approaching. Coming up with
+                                configurations, restrictions, and applications for the devices.
+                                Currently brainstorming other ideas on how to complete this task. My
+                                team and I will do everyhting in the name of Charles Babbage to
+                                deliver. When we do, it will be another proud moment for me.
+                            </p>
+                        </div>
+
+                        <button onclick="myProj('srvup')" class="w3-btn w3-block w3-dar-gray">
+                            Server Upgrades
+                        </button>
+
+                        <div id="srvup" class="w3-container w3-center w3-hide">
+                            <p>
+                                Staying on top of updates and upgrading servers is not an easy task.
+                                The time is upon us where the Sys Admins go crazy and start
+                                upgrading everything. Taking on the task of upgrading domain
+                                controllers (created in Azure for redundancy), print servers and a
+                                lot more. Ensuring backups are done and encrypted, and my favorite
+                                upgrading ESXi to the latest version!
+                            </p>
+                        </div>
+                        <button onclick="myProj('cert')" class="w3-btn w3-block w3-amber">
+                            Professional Development
+                        </button>
+
+                        <div id="cert" class="w3-container w3-center w3-hide">
+                            <p>
+                                I am activily pursuing knowledge. I currently hold three
+                                certifications,
+                                <strong>VCP-DCV2023 - VMware Certified Professional DataCenter
+                                    Vitrualization 2023</strong>, which is a whole mouth full lol.
+                                <strong>Microsoft Certified: Azure Fundametals</strong> &amp;
+                                <strong>CompTIA A+.</strong> I recently became an ISC&sup2;
+                                candidiate and will be studing for the
+                                <strong>SSCP - Systems Secuirty Certified Practitioner</strong>
+                                exam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <!--<div class="w3-row w3-half">
+            <div class="w3-container w3-padding-32 w3-content w3-center section2">
+                <div class="certs w3-container w3-row w3-half">
+                    <h2>Certifications</h2>
+                    <div
+                        class="vmware w3-container w3-center w3-animate-top w3-animate-opacity w3-animate-opacity w3-animate-opacity w3-row w3-half w3-animate-opacity">
+                        <a href="https://www.credly.com/badges/c31c3e02-f616-46f8-8fa7-15f2bd41e0ea/public_url"
+                            target="_blank"><img
+                                src="cert/vmware-certified-professional-data-center-virtualization-2023.png"
+                                alt="VMware Certified" /></a>
+                    </div>
+                    <div
+                        class="Azure w3-container w3-center w3-animate-right w3-animate-opacity w3-animate-opacity w3-animate-opacity w3-animate-opacity w3-row w3-row-padding w3-half">
+                        <a href="https://www.credly.com/badges/031e09bb-8366-4b60-89e1-e6436b7413a7/public_url"
+                            target="_blank"><img src="cert/microsoft-certified-azure-fundamentals.png"
+                                alt="Azure Certified Badge" /></a>
+                    </div>
+                    <div
+                        class="A w3-container w3-center w3-animate-left w3-animate-opacity w3-animate-opacity w3-animate-opacity w3-animate-opacity w3-row w3-half w3-row-padding">
+                        <a href="https://www.credly.com/badges/9ef7eda6-700a-4ade-82ed-0a27f9e7fc8a/public_url"
+                            target="_blank"><img src="cert/comptia-a-ce-certification.1.png"
+                                alt="CompTIA Certification Badge" /></a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <div class="clear"></div>
+    <!--Stopping Point
+        <div class="w3-row w3-half w3-gray section3">
+            <h2>Education</h2>
+            <div class="moreToCome w3-container w3-gray w3-half">
+                <p>More to come</p>
+            </div>
+        </div>
+        -->
+
+</main>
+<footer>
+    <div class="w3-container w3-center">
+        <div class="w3-row">
+            <div class="w3-gray">
+                <h5>Social Media</h5>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="myjs.js"></script>
+</body>
+
+</html>
